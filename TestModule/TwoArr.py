@@ -7,7 +7,7 @@ def GetSymbol():
    return words[len(arraysteps)%2]
 
 def vvod_XO(bukva_,setka_):
-    temp=input('следующий ход игрока' + bukva_+'  , выберите номер в формате [,]: ')
+    temp=input('следующий ход игрока ' + bukva_+'  , выберите номер в формате [*,*]: ')
 
     if temp.upper()=='R' :
             if  len(arraysteps)!=0:
