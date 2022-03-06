@@ -21,10 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="OneArr.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="TwoArr.py">
+    <Compile Include="Date.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="KrestikOneTwo.py" />
